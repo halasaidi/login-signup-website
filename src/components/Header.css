@@ -1,0 +1,85 @@
+#logo{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    color: rgb(204, 215, 223);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-left: -40%;
+}
+#navbar{
+    background-color: rgb(4, 25, 37);
+    height:60px;
+position:fixed;
+width: 100%;
+top: 0;
+left: 0;
+margin: 0;
+padding: 0;
+z-index: 100; /* Ensure the navbar is above other content */
+transition: background-color 0.3s;
+z-index: 1;
+}
+.contbar{
+    margin-left: 30%;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    margin-left: 30%;
+    font-size: large;
+}
+#navlink{
+    color: aliceblue;
+    border: 1px solid wheat;
+    margin: 5px;
+    padding: 5px;
+    width:100px;
+   text-align: center;
+   text-decoration: none;
+}
+#navlink:hover{
+    background-color: azure;
+    color:rgba(4, 25, 37, 0.841) ;
+   transition: ease-in;
+text-transform: uppercase;
+}
+#navmain{
+font-size: medium;
+font-weight: 600;
+color: aliceblue
+
+}
+#navmain:hover{
+    cursor : pointer;
+    color:rgba(207, 206, 140, 0.956) ;
+    transition: ease-in;
+    transform: scaleX(.9);
+}
+@media(max-width:1000px){
+   #basic-navbar-nav{
+        background-color:  rgb(4, 25, 37);
+        width:100%;
+  margin-top:9px;
+  
+    }
+    #navmain{
+        margin-left:12px;
+    }
+.contbar {
+    display: flex !important;
+   flex-direction: row !important;
+position: absolute;
+z-index:2000p !important;
+margin-top: -340px;
+
+}
+    }
+   
+.button10{
+    border: 1px solid rgb(239, 239, 241) !important;
+}

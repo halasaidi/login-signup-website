@@ -1,0 +1,29 @@
+#latest{
+    text-align: center;
+    margin-top: 7%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   border-bottom: 1px solid gray;
+}
+#button5{
+padding: 2px;
+width:130px;
+background-color: aliceblue;
+box-shadow: 1px 1px 1px rgb(169, 228, 241);
+
+}
+#button5:hover{
+    background-color: rgba(9, 31, 51, 0.489);
+    transition:ease-in .6s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    transform: skewX(3deg);
+}
+@keyframes bounce {
+    0%, 100% {
+      transform:rotateX('20deg'); /* Initial and final state, no vertical movement */
+    }
+    50% {
+      transform: scale(1.1); /* Middle of the animation, move up by 20px */
+    }
+  }
+  .imges:hover{
+    animation: bounce 2s infinite;
+  }

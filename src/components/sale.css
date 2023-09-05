@@ -1,0 +1,54 @@
+.count{
+    margin-top:4%;
+    background-image: url(./images/pexels-karolina-grabowska-5624979.jpg);
+  background-size: cover;
+
+min-height:10px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.count h2{
+    margin-left: 50%;
+    padding-top:3%;
+color: rgb(140, 139, 137);
+font-weight: 200;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.counter{
+    padding-top:60px;
+padding-left: 50%;
+
+}
+.salecount{
+
+display: none;
+}
+.button8{
+    margin-left: 55%;
+    margin-top: 60px !important;
+    margin-bottom: 20px;
+  background-color: rgb(140, 139, 137);
+    color: black;
+    padding: 5px;
+    width: 130px;
+}
+.button8:hover{
+background-color: beige;
+transition: ease-out cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+#timer{
+    width:40px ;
+    background-color: rgb(140, 139, 137);
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    height: 40px;
+    padding-top: 5px;
+    font-size: 20px;
+    margin-top: -4px;
+   
+}

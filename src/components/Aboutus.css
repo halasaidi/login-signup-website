@@ -1,0 +1,61 @@
+
+.Aboutus{
+    margin-top: 7%;
+    background-color: rgba(182, 185, 197, 0.311);
+    padding:80px;
+}
+.row1{
+     margin-top:7% !important;
+}
+
+#img{
+    height:450px;
+   
+   
+}
+.col2{
+
+    text-align: justify;
+    font-size: large;
+    
+
+}
+.col2 h4{
+    text-align: center;
+}
+#text{
+    color: rgb(91, 89, 89);
+    margin-left: 35px;
+}
+#price{
+    padding-bottom:3rem ;
+    text-decoration: line-through;
+    color: rgb(126, 127, 128);
+    margin-right: 12px;
+    margin-left: 35px;
+}
+.col2 h5{
+    margin-left: 35px;
+}
+.btn{
+    background-color:rgba(4, 25, 37, 0.841) !important;
+    width: 200px !important;
+    margin-left: 40px !important;
+}
+ 
+.col3{
+   padding: 12px;
+   margin-left: 120px;
+
+}
+.row1{
+    background-color: rgb(255, 254, 254);
+    padding: 60px;
+    box-shadow: 1px 1px 1px rgba(6, 41, 66, 0.447);
+}
+.row2{ 
+    margin-top: 3% !important;
+    background-color: rgb(255, 254, 254);
+    padding: 60px;
+    box-shadow: 1px 1px 1px rgba(6, 41, 66, 0.447);
+}

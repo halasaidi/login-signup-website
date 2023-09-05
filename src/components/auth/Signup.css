@@ -1,0 +1,23 @@
+.signin{
+    margin-top: 15%;
+        width: 5%;
+        margin-left: 35%;
+        border: 1px solid black;
+        padding:100px;
+        box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5) ;
+        border-radius: 20px;
+      background-color: rgba(246, 250, 253, 0.636);
+ 
+    }
+    .signin h1{
+      text-shadow:  2px 2px 4px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    
+    }
+    .signin button{
+        margin-left: 45%;
+        margin-top: 12px;
+    }
+    #input{
+        margin-bottom: 12px;
+    }

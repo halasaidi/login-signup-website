@@ -1,0 +1,27 @@
+
+.form{
+margin-top: 15%;
+    width: 5%;
+    margin-left: 35%;
+    border: 1px solid black;
+    padding:100px;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5) ;
+    border-radius: 20px;
+  background-color: rgba(246, 250, 253, 0.636);
+}
+.form h1{
+  text-shadow:  2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+
+}
+.form button{
+    margin-left: 45%;
+}
+#login{
+  color: #f5e7e7; 
+  font-size:20px; 
+position: fixed;
+z-index: 2;
+margin-left:62%;
+margin-top: -24px;
+}

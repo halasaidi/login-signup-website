@@ -1,0 +1,37 @@
+#name{
+    margin-left: 50px;
+}
+#name2{
+    color: rgb(202, 200, 199);
+    margin-left: 40px;
+}
+#para{
+    text-align: center;
+}
+.icon{
+
+margin-left: 70px !important;
+
+}
+.marketing{
+    margin-left:90px !important;
+}
+  #icon1 ,#icon2,#icon3,#icon4{
+    border-radius: 50%;
+    width:25px;
+    height: 30px; 
+    padding:4px; 
+    background-color: rgb(236, 243, 243);
+    margin:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(19, 19, 19); 
+   
+  }
+  #icon1:hover ,#icon2:hover,#icon3:hover,#icon4:hover{
+    background-color:#a5a191 ;
+    transform: scaleY(1.1);
+
+    transition: ease-in 4s cubic-bezier(0.47, 0, 0.745, 0.715);
+  }

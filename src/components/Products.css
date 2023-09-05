@@ -1,0 +1,93 @@
+#title{
+    text-align: center;
+    font-size: small;
+   color: rgb(82, 119, 152);
+}
+#title1{
+text-align: center;
+font-size: xx-large;
+color:  rgb(4, 25, 37);
+font-family: Arial, Helvetica, sans-serif;
+}
+#discription{
+    text-align: center;
+    color: rgb(4, 25, 37) ;
+    margin-bottom: 50px;
+}
+#button{
+    padding:2px;
+    border-radius:6px;
+    background:rgba(251, 250, 226, 0.956) !important;;
+margin-top:10px;
+border: 1px solid rgb(254, 252, 249);
+margin-bottom: 10px;
+
+color: black;
+}
+.button2{
+   
+    
+    width:60%;
+    margin-left:25%;
+ 
+   border-radius: 20px;
+}
+#button:hover{
+   background-color: rgba(244, 243, 186, 0.956) !important;
+    transition: ease-in;
+    
+    }
+.buttonall{
+    width: 90px;
+}
+.row{
+ margin-left: 5% !important;
+}
+
+.image{
+ height:150px;
+ width: 150px !important;
+padding: 5px;
+margin-left:50px;
+}
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.02); 
+    }
+}
+
+.image:hover{
+    animation: zoomIn 0.4s ease-out;
+}
+.title{
+    text-align: center;
+
+}
+.card{
+height: 400px !important;
+margin-top: 40px;
+}
+#button2{
+   margin-top: 20px !important;
+    margin-left:10px !important;
+    background:rgba(251, 250, 226, 0.956)  !important;
+    width: 90px !important;
+    border: 1px solid rgb(254, 252, 249);
+    color: black;
+    
+}
+
+.card:hover{
+    transform: translateY(12px);
+    box-shadow: 2px 1px 1px rgb(21, 45, 70);
+}
+.favorite-icon {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .favorite {
+    color: red;
+  }
